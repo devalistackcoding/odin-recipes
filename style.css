@@ -1,0 +1,13 @@
+h1{
+    font-size: 72px;
+    text-align: center;
+    border: solid red 5px;
+    color: red;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
